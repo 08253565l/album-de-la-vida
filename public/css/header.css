@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+  }
+  
+  
+  header{
+    background-color: rgba(31, 226, 138, 0.172);
+    padding: 70px 150px;
+    width: 100%;
+  }
+  header .Inicio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  header nav{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+  
+  header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0a0808;
+    font-size: 1.2em;
+  }
+  
+  header a:hover{
+    color:blueviolet;
+      
+  }
+  
+  header h1 {
+    color:#111010;
+      
+  }
+  header h1:hover{
+    color:blueviolet;
+      
+  }
