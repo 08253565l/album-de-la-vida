@@ -2,28 +2,17 @@
 <html lang="es">
 <%- include('./partials/head.ejs') %>
 
-
   <body>
-   
     <%- include('./partials/header.ejs') %>
-
-
-    <h1 class="h1Index">RECORDATORIO DE LA VIDA DE LISBETH</h1>
-
-    <div class="cardContainer">
-
-
-      <% productos.forEach(producto=> { %>
-        <section class="card">
-          <%- include("./partials/productos.ejs", {producto: producto}) %>
-        </section>
-        <% }) %>
-
-
-        <%- include('./partials/footer') %>
-
-
+      <h1 class="h1Index">RECORDATORIO DE LA VIDA DE LISBETH </h1>
+      <div class="cardContainer">
+        <% productos.forEach(producto=> { %>
+          <section class="card">
+            <%- include("./partials/productos.ejs", {producto: producto}) %>
+          </section>
+          <% }) %>
+      </div>
+      <%- include('./partials/footer') %>
   </body>
-
 
 </html>
